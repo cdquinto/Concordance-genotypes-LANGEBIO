@@ -206,7 +206,8 @@ plink2 --bfile merged_data_hapmap_3 --keep keep_ind_merged_data_hapmap_3.txt --m
 2589 NA21405 0 0 1 -9
 NA19088 NA19088 0 0 1 -9
 
-###Final number of SNPs in common between the two datasets: 282,831 SNPs
+###Final number of SNPs in common between the two datasets: 
+ SNPs
 
 ####Run cal_concordance.pl
 2588	0.961344407084089	0.0386555929159109
