@@ -82,6 +82,10 @@ HG01935	HG01935
 0	0	100100
 100100	100100	0
 
+##Percentage concordance= 1-(100100/138145)=0.27
+
+###Once corrected by taking into account A/T and G/C alleles, this is the concordance: 0.999641680842593
+
 
 
 

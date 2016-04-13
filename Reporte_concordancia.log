@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 APR 2016 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 APR 2016 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,6 +426,9 @@ LaTeX Info: Redefining \% on input line 23.
 
 LaTeX Warning: Label `my-label' multiply defined.
 
+
+LaTeX Warning: Label `my-label' multiply defined.
+
 )
 \openout1 = `Reporte_concordancia.aux'.
 
@@ -661,125 +664,177 @@ Overfull \hbox (1.82863pt too wide) in paragraph at lines 104--113
  [][] [] 
  []
 
-<Concordance_1KG_MEGA_clusterPAGE.pdf, id=21, 505.89pt x 505.89pt>
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 115.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 115.
+[2 <./Concordance_1KG_MEGA_nocluster.pdf> <./Concordance_HAPMAP_MEGA_nocluster.
+pdf>] <Concordance_1KG_MEGA_clusterPAGE.pdf, id=41, 505.89pt x 505.89pt>
 File: Concordance_1KG_MEGA_clusterPAGE.pdf Graphic file (type pdf)
 
 <use Concordance_1KG_MEGA_clusterPAGE.pdf>
 Package pdftex.def Info: Concordance_1KG_MEGA_clusterPAGE.pdf used on input lin
-e 120.
+e 122.
 (pdftex.def)             Requested size: 278.24034pt x 278.24034pt.
 
-Overfull \hbox (21.68163pt too wide) in paragraph at lines 120--121
+Overfull \hbox (21.68163pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
-<Concordance_HAPMAP_MEGA_clusterPAGE.pdf, id=22, 505.89pt x 505.89pt>
+<Concordance_HAPMAP_MEGA_clusterPAGE.pdf, id=42, 505.89pt x 505.89pt>
 File: Concordance_HAPMAP_MEGA_clusterPAGE.pdf Graphic file (type pdf)
 
 <use Concordance_HAPMAP_MEGA_clusterPAGE.pdf>
 Package pdftex.def Info: Concordance_HAPMAP_MEGA_clusterPAGE.pdf used on input 
-line 125.
+line 127.
 (pdftex.def)             Requested size: 278.24034pt x 278.24034pt.
 
-Overfull \hbox (21.68163pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.68163pt too wide) in paragraph at lines 127--128
  [][] 
  []
 
 
-Overfull \hbox (1.82863pt too wide) in paragraph at lines 118--127
+Overfull \hbox (1.82863pt too wide) in paragraph at lines 120--129
  [][] [] 
  []
 
-<Concordance_1KG_MEGA_clusterGLOBAL.pdf, id=23, 505.89pt x 505.89pt>
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 131.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 131.
+[3 <./Concordance_1KG_MEGA_clusterPAGE.pdf> <./Concordance_HAPMAP_MEGA_clusterP
+AGE.pdf>] <Concordance_1KG_MEGA_clusterGLOBAL.pdf, id=60, 505.89pt x 505.89pt>
 File: Concordance_1KG_MEGA_clusterGLOBAL.pdf Graphic file (type pdf)
 
 <use Concordance_1KG_MEGA_clusterGLOBAL.pdf>
 Package pdftex.def Info: Concordance_1KG_MEGA_clusterGLOBAL.pdf used on input l
-ine 135.
+ine 138.
 (pdftex.def)             Requested size: 278.24034pt x 278.24034pt.
 
-Overfull \hbox (21.68163pt too wide) in paragraph at lines 135--136
+Overfull \hbox (21.68163pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
-<Concordance_HAPMAP_MEGA_clusterGLOBAL.pdf, id=24, 505.89pt x 505.89pt>
+<Concordance_HAPMAP_MEGA_clusterGLOBAL.pdf, id=61, 505.89pt x 505.89pt>
 File: Concordance_HAPMAP_MEGA_clusterGLOBAL.pdf Graphic file (type pdf)
 
 <use Concordance_HAPMAP_MEGA_clusterGLOBAL.pdf>
 Package pdftex.def Info: Concordance_HAPMAP_MEGA_clusterGLOBAL.pdf used on inpu
-t line 140.
+t line 143.
 (pdftex.def)             Requested size: 278.24034pt x 278.24034pt.
 
-Overfull \hbox (21.68163pt too wide) in paragraph at lines 140--141
+Overfull \hbox (21.68163pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
 
-Overfull \hbox (1.82863pt too wide) in paragraph at lines 133--142
+Overfull \hbox (1.82863pt too wide) in paragraph at lines 136--145
  [][] [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 147.
-[2 <./Concordance_1KG_MEGA_nocluster.pdf> <./Concordance_HAPMAP_MEGA_nocluster.
-pdf>]
+(babel)             in language  on input line 149.
+[4 <./Concordance_1KG_MEGA_clusterGLOBAL.pdf> <./Concordance_HAPMAP_MEGA_cluste
+rGLOBAL.pdf>]
+Overfull \hbox (7.17447pt too wide) in paragraph at lines 157--164
+ [][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 147.
- [3 <./Concordance_1KG_MEGA_clusterPAGE.pdf> <./Concordance_HAPMAP_MEGA_cluster
-PAGE.pdf> <./Concordance_1KG_MEGA_clusterGLOBAL.pdf> <./Concordance_HAPMAP_MEGA
-_clusterGLOBAL.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+(babel)             in language  on input line 168.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./Reporte_concordancia.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `Reporte_concordancia.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -789,26 +844,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 10052 strings out of 493089
- 148616 string characters out of 6134842
- 250640 words of memory out of 5000000
+ 10055 strings out of 493089
+ 148643 string characters out of 6134842
+ 250641 words of memory out of 5000000
  13382 multiletter control sequences out of 15000+600000
  23213 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,18n,40p,286b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/
-local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/local/tex
+ 42i,18n,40p,341b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/l
+ocal/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb>
-Output written on Reporte_concordancia.pdf (3 pages, 106662 bytes).
+5/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on Reporte_concordancia.pdf (5 pages, 132317 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

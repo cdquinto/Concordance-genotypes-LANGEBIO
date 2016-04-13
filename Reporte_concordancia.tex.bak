@@ -98,7 +98,7 @@ En la siguiente tabla estan los resultados de concordancia entre los diferentes 
 
 En las siguientes figuras se muestran los porcentajes de concordancia (en naranja) entre los genotipos de los individuos en la corrida de entrenamiento, en 1KG y en HapMap. 
 
-\begin{figure*}[ht!]
+\begin{figure}[ht]
     \centering
     \caption{Comparacion sin cluster}
     \begin{subfigure}[t]{0.5\textwidth}
@@ -110,9 +110,11 @@ En las siguientes figuras se muestran los porcentajes de concordancia (en naranj
         \centering
         \includegraphics[scale=0.55]{Concordance_HAPMAP_MEGA_nocluster.pdf}
 	 \end{subfigure}
-\end{figure*}
+\end{figure}
+
+\newpage
 %%%%%%%%%%%%%%%
-\begin{figure*}[ht!]
+\begin{figure}[ht!]
     \centering
     \caption{Comparacion cluster PAGE}
     \begin{subfigure}[t]{0.5\textwidth}
@@ -124,10 +126,11 @@ En las siguientes figuras se muestran los porcentajes de concordancia (en naranj
         \centering
         \includegraphics[scale=0.55]{Concordance_HAPMAP_MEGA_clusterPAGE.pdf}
     \end{subfigure}
-\end{figure*}
+\end{figure}
 
+\newpage
 %%%%%%%%%%%%%%%
-\begin{figure*}[ht!]
+\begin{figure}[ht!]
     \centering
     \caption{Comparacion cluster GLOBAL}
     \begin{subfigure}[t]{0.5\textwidth}
@@ -139,10 +142,28 @@ En las siguientes figuras se muestran los porcentajes de concordancia (en naranj
         \centering
         \includegraphics[scale=0.55]{Concordance_HAPMAP_MEGA_clusterGLOBAL.pdf}
     \end{subfigure}
-\end{figure*}
+\end{figure}
+
+\textit{(Los archivos README* tienen mas informacion acerca de los pasos que se siguieron para renombrar los SNPs, filtrar y unir los datos.)}
+
+\newpage
+
+En base al analisis realizado en el primer batch de muestras de Maria Avila y 1KG, me di cuenta que hay sitios que tienen, por ejemplo, un genotipo CC, mientras que en el segundo set de datos, el mismo genotipo es GG. Con el script cal\_concordance2.pl, se tomaron en cuenta este tipo de sitios. 
+
+Los nuevos porcentajes de concordancia estan el siguiente tabla: \\
+\begin{table}[ht]
+\centering
+\label{my-label}
+\begin{tabular}{|l|l|l|l||l|l|l|}
+\hline \hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{Concordancia con 1KG} & \multicolumn{3}{c|}{Concordancia con HapMap} \\ \cline{2-7} 
+ & No cluster & cluster PAGE & cluster GLOBAL & No cluster & cluster PAGE & cluster GLOBAL \\ \hline \hline
+\begin{tabular}[c]{@{}l@{}}\% concordancia\\ (promedio)\end{tabular} & 99.81\% & 99.96\% & 99.96\% & 99.82\% & 99.97\% & 99.98\% \\ \hline
+\# SNPs & 282, 831 & 279, 879 & 268, 907 & 128, 587 & 127, 318 & 122, 581 \\ \hline
+\end{tabular}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \end{document}
 
