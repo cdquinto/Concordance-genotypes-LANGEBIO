@@ -148,9 +148,7 @@ En las siguientes figuras se muestran los porcentajes de concordancia (en naranj
 
 \newpage
 
-En base al analisis realizado en el primer batch de muestras de Maria Avila y 1KG, me di cuenta que hay sitios que tienen, por ejemplo, un genotipo CC, mientras que en el segundo set de datos, el mismo genotipo es GG. Con el script cal\_concordance2.pl, se tomaron en cuenta este tipo de sitios. 
-
-Los nuevos porcentajes de concordancia estan el siguiente tabla: \\
+En base al analisis realizado en el primer batch de muestras de Maria Avila y 1KG, me di cuenta que hay sitios que tienen, por ejemplo, un genotipo CC, mientras que en el segundo set de datos, el mismo genotipo es GG (lo mismo aplica para genotipos AA y TT). Con el script cal\_concordance2.pl, se tomaron en cuenta este tipo de sitios y los nuevos porcentajes de concordancia estan el siguiente tabla: \\
 \begin{table}[ht]
 \centering
 \label{my-label}
@@ -164,6 +162,28 @@ Los nuevos porcentajes de concordancia estan el siguiente tabla: \\
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\large \textbf{GenomeStudio e informacion acerca de la posicion de los SNPs (cadena positiva/negativa)}
+\end{center}
+\\
+
+En las corridas de analisis de Genome Studio con las muestras del entrenamiento y usando el manifiesto \\ MEGA\_Consortium\_15063755\_B2.bpm, no se muestra en la SNP Table la informacion acerca de la cadena donde se encuentran los SNPs (+ vs -). \\
+
+Sin embargo, esta informacion si aparece cuando se analizaron las muestras de Maria Avila con el microarreglo de MEGA comercial y el manifiesto Multi-EthnicGlobal\_A1.bpm. A pesar de esto, parece que la informacion de la direccion de las cadenas no se transmite a plink, ya que los archivos creados por el plugin de plink siguen teniendo alelos en la cadena - (TT vs AA). \\ 
+
+Ejemplo: \\
+rsId: rs2465136\\
+posicion: 1: 990417\\
+muestra: HG01938 (1KG)\\
+\\
+Informacion de dbSNP: A/G (REV)\\
+Alelos en 1KG: TT \\
+Alelos en MEGA reportados por GenomeStudio: AA \\
+
+Algo que se puede hacer para encontrar sitios donde esto ocurre es generar un reporte final desde GenomeStudio donde se encuentra la informacion acerca de la direccion de las cadenas (Plus/Minus Strand), pero solo usando el manifiesto Multi-EthnicGlobal\_A1.bpm. 
+
+Una sugerencia de Pavel es generar una lista de SNPs (basada en el reporte final) donde potencialmente habria un problema de cadena + vs. cadena -, para que el usuario sepa que esos alelos se tienen que cambiar con plink (\colorbox{Lavender}{opcion --flip lista.txt}) cuando se querian unir varios sets de datos como 1KG y/o HapMap. 
 
 \end{document}
 

@@ -148,7 +148,7 @@ En las siguientes figuras se muestran los porcentajes de concordancia (en naranj
 
 \newpage
 
-En base al analisis realizado en el primer batch de muestras de Maria Avila y 1KG, me di cuenta que hay sitios que tienen, por ejemplo, un genotipo CC, mientras que en el segundo set de datos, el mismo genotipo es GG. Con el script cal\_concordance2.pl, se tomaron en cuenta este tipo de sitios. 
+En base al analisis realizado en el primer batch de muestras de Maria Avila y 1KG, me di cuenta que hay sitios que tienen, por ejemplo, un genotipo CC, mientras que en el segundo set de datos, el mismo genotipo es GG (lo mismo aplica para genotipos AA y TT). Con el script cal\_concordance2.pl, se tomaron en cuenta este tipo de sitios. 
 
 Los nuevos porcentajes de concordancia estan el siguiente tabla: \\
 \begin{table}[ht]
@@ -164,6 +164,28 @@ Los nuevos porcentajes de concordancia estan el siguiente tabla: \\
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\large \textbf{GenomeStudio e informacion acerca de la posicion de los SNPs (cadena positiva/negativa)}
+\end{center}
+\\
+
+En las corridas de analisis de Genome Studio con las muestras del entrenamiento y usando el manifiesto MEGA_Consortium_15063755_B2.bpm, no se muestra en la SNP Table la informacion acerca de la cadena donde se encuentran los SNPs (+ vs -). \\
+
+Ejemplo: \\
+
+rsId: rs2465136\\
+posicion: 1: 990417\\
+muestra: HG01938 (1KG)\\
+\\
+Informacion de dbSNP: A/G (REV)\\
+Alelos en 1KG: TT
+Alelos en MEGA reportados por GenomeStudio: AA \\
+
+Sin embargo, esta informacion si aparece cuando se analizaron las muestras de Maria Avila con el microarreglo de MEGA comercial y el manifiesto Multi-EthnicGlobal_A1.bpm. A pesar de esto, parece que la informacion de la direccion de las cadenas no se transmite a plink, ya que los archivos creados por el plugin de plink siguen teniendo alelos en la cadena - (TT vs AA). \\ 
+Es posible generar en GenomeStudio un reporte final donde se encuentra la informacion acerca de la direccion de las cadenas (Allele 1-Forward y Allele 2-Forward).
+
+
 
 \end{document}
 
